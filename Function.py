@@ -1,0 +1,11 @@
+def greet():
+    print("Hello,")
+    print("Good Morning.")
+    print("I am Kalyani")
+    print("Hi,I'm Kirti")
+    print("I am a Docter")
+    print("Oh!We are Thankful of you")
+    print("You save our lifes")
+    print("You are 2nd name of god")
+    print("Thank you")
+greet()
