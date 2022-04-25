@@ -1,121 +1,103 @@
-def parttern1():
-    n=5
+def pattern1(n):
     for i in range(n):
         for j in range(n):
             print('*',end=' ')
         print()
-def parttern2():
-    n=5
+def pattern2(n):
     for i in range(n):
         for j in range(n):
             print('$',end=' ')
         print()
-def parttern3():
-    n=3
+def pattern3(n):
     for i in range(n):
         for j in range(n):
             print('#',end=' ')
         print()
-def parttern4():
-    n=10
+def pattern4(n):
     for i in range(n):
         for j in range(n):
             print('7',end=' ')
         print()
-def parttern5():
-    n=5
+def pattern5(n):
     for i in range(n):
         for j in range(n):
             print('PYTHON',end=' ')
         print()
 
-def parttern6():
-    n=5
+def pattern6(n):
     for i in range(n):
         for j in range(i+1):
             print('*',end=' ')
         print()
-def parttern7():
-    n=5
+def pattern7(n):
     for i in range(n):
         for j in range(i+1):
             print('#',end=' ')
         print()
-def parttern8():
-    n=5
+def pattern8(n):
     for i in range(n):
         for j in range(i+1):
             print('$',end=' ')
         print()
-def parttern9():
-    n=5
+def pattern9(n):
     for i in range(n):
         for j in range(i,n):
             print('*',end=' ')
         print()
 
-def parttern10():
-    n=5
+def pattern10(n):
     for i in range(n):
         for j in range(i,n):
             print('#',end=' ')
         print()
-def parttern11():
-    n=5
+def pattern11(n):
     for i in range(n):
         for j in range(i,n):
             print('$',end=' ')
         print()
-def parttern12():
-    n=5
+def pattern12(n):
     for i in range(n):
         for j in range(i,n):
             print(' ',end=' ')
         for j in range(i+1):
             print('*',end=' ')
         print()
-def parttern13():
-    n = 5
+def pattern13(n):
     for i in range(n):
         for j in range(i, n):
             print(' ', end=' ')
         for j in range(i + 1):
             print('3', end=' ')
         print()
-def parttern14():
-    n=5
+def pattern14(n):
     for i in range(n):
         for j in range(i,n):
             print(' ',end=' ')
         for j in range(i+1):
             print('$',end=' ')
         print()
-def parttern15():
-    n=5
+def pattern15(n):
     for i in range(n):
         for j in range(i+n):
             print(' ',end=' ')
         for j in range(i,n):
             print('*',end=' ')
         print()
-def parttern16():
-    n=5
+def pattern16(n):
     for i in range(n):
         for j in range(i+n):
             print(' ',end=' ')
         for j in range(i,n):
             print('$',end=' ')
         print()
-def parttern17():
-    n=5
+def pattern17(n):
     for i in range(n):
         for j in range(i+n):
             print(' ',end=' ')
         for j in range(i,n):
             print('#',end=' ')
         print()
-def parttern18():
-    n=5
+def pattern18(n):
     for i in range(n):
         for j in range(i,n):
             print(' ',end=' ')
@@ -124,8 +106,7 @@ def parttern18():
         for j in range(i+1):
             print('*',end=' ')
         print()
-def parttern19():
-    n=5
+def pattern19(n):
     for i in range(n):
         for j in range(i,n):
             print(' ',end=' ')
@@ -134,8 +115,7 @@ def parttern19():
         for j in range(i+1):
             print('$',end=' ')
         print()
-def parttern20():
-    n=5
+def pattern20(n):
     for i in range(n):
         for j in range(i+1):
             print(' ',end=' ')
@@ -144,8 +124,7 @@ def parttern20():
         for j in range(i,n):
             print('$',end=' ')
         print()
-def parttern21():
-    n=5
+def pattern21(n):
     for i in range(n):
         for j in range(i+1):
             print(' ',end=' ')
@@ -154,8 +133,7 @@ def parttern21():
         for j in range(i,n):
             print('*',end=' ')
         print()
-def parttern22():
-    n=5
+def pattern22(n):
     for i in range(n):
         for j in range(i+1):
             print(' ',end=' ')
@@ -164,3 +142,7 @@ def parttern22():
         for j in range(i,n):
             print('#',end=' ')
         print()
+n=int(input("Enter number of rows::"))
+pattern15(n)
+
+

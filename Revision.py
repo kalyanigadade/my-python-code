@@ -1,25 +1,14 @@
-num = int(input("Enter a number: "))
-mod = num % 2
-if mod > 0:
-    print("This is an odd number.")
-else:
-    print("This is an even number.")
+while True:
+    num = int(input("Enter a number: "))
+    mod = num % 2
+    if mod > 0:
+        print("This is an odd number.")
+    else:
+        print("This is an even number.")
+    choice=input("Do you want to continue Y/N::")
+    if (choice=="n" or  choice == "N"):
+      break
 
-num = int(input("Enter a number: "))
-mod = num % 2
-if mod > 0:
-    print("This is an odd number.")
-else:
-    print("This is an even number.")
-num = int(input("Enter a number: "))
-mod = num % 2
-if mod > 0:
-    print("This is an odd number.")
-else:
-    print("This is an even number.")
-num=int(input("Enter a number:"))
-mod=num%2
-if mod > 0:
-    print("This is a odd number.")
-else:
-    print("This is a even number:")
+
+
+

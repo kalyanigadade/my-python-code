@@ -1,13 +1,10 @@
-a=27
-b=49
-c=a+b
-print(c)
-spam='hello'
-print(spam)
-print("how are you")
-for i in range(0,10,2):
-    print(i)
+while True:
+    a=int(input("Enter 1st number:"))
+    b=int(input("Enter 2nd number:"))
+    c=a+b
+    print("Answer is",c)
+    choice=input("Do you want to continue Y/N::")
+    if (choice == "n" or choice == "N"):
+        break
 
-print("corrected code output")
-for i in range(2,22,2):
-    print(i)
+
