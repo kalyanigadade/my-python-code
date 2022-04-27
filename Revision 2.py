@@ -1,0 +1,27 @@
+while True:
+    print("Please type your name:")
+    name = input()
+    print("Thank you")
+    print("Please type your surname:")
+    surname = input()
+    print("Thank you")
+    print("Please type your address:")
+    address = input()
+    print("Thank you")
+    choice = input("do you want to continue Y/N")
+    print("Please type your mobile.number:")
+    mobilenumber = input()
+    print("Thank you")
+    print("Please enter your age:")
+    age = input()
+    print("Thank you")
+    print("Enter your mothers name:")
+    mothersname = input()
+    print("Thank you")
+    print("Enter fathers name:")
+    fathersname = input()
+    print("Thank you")
+    choice = input("do you want to repeat Y/N")
+    if choice == "n" or choice == "N":
+        break
+

@@ -1,9 +1,9 @@
 while True:
     sentence = input("Enter the sentence:")
-    string = sentence.lower()
+    string = sentence.upper()
     print(string)
     count = 0
-    list1 = ["a","e","i","o","u"]
+    list1 = ["a", "e", "i", "o", "u","A","E","I","O","U"]
     for char in string:
         if char in list1:
             count = count+1
